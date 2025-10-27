@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* index.css (optional) */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700;800&family=Montserrat:wght@300;400;600&display=swap');
+
+:root {
+  --cream: #efe9d8;
+}
+.text-cream { color: var(--cream); }
+body { font-family: 'Montserrat', sans-serif; }
+h1, .font-extrabold { font-family: 'Oswald', sans-serif; }
